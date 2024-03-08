@@ -1,0 +1,52 @@
+*{
+    border: solid greenyellow
+}
+
+body{
+    background-color: orange;
+}
+
+.två{
+    margin-left: 10px;
+}
+
+h1{
+    background-color: brown;
+}
+
+canvas{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+canvas:hover{
+    opacity: 1;
+    background-color: blueviolet;
+}
+
+p:hover{
+    background-color: brown;
+}
+
+.p1{
+    color: white;
+}
+
+.p1:hover{
+    color: black;
+}
+
+.p1:hover span{
+    display: none
+}
+
+.p1:hover:before{
+    content: "THIS IS A PARAGRAPH";
+}
+
+.p2:hover{
+    color: white;
+}
